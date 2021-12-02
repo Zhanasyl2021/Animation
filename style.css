@@ -1,0 +1,75 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+}
+.header{
+	background: url(../img/212.jpg); no background-repeat: cover center;
+	
+	height: 900px;
+	padding-top: 57px;
+}
+
+
+
+*{
+	box-sizing: border-box;
+
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header a{
+	text-decoration: none;
+	color: white;
+	
+}
+
+ul, li {
+	display: block;
+}
+
+.logo{
+	margin-right: 69px;
+	width: 60px;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	margin-bottom: 216px;
+}
+.menu{
+	display: flex;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+
+}
+
+.menu li{
+	margin-right: 40px;
+}
+
+.tel{
+	margin-left: auto;
+	letter-spacing: 0.1em;
+	font-size: 17px;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+
+.offer{
+	color:  white;
+}
+
+.offer p{
+	font-size: 30px;
+}
+
+.offer h1{
+	font-size: 100px;
+}
